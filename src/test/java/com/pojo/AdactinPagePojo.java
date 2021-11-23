@@ -13,7 +13,6 @@ public class AdactinPagePojo extends LibGlobal {
 	{
 		PageFactory.initElements(Hooks.driver, this);
 	}
-	
 	@FindBy(id="username")
 	private WebElement txtUserName;
 	
